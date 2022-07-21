@@ -18,3 +18,9 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('BootCamp HTML', 'ht
 
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2022-07-11T20:35:07.12345Z',TIMESTAMP WITH TIME ZONE '2022-07-11T20:35:07.12345Z',1);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2023-07-11T20:35:07.12345Z',TIMESTAMP WITH TIME ZONE '2023-07-11T20:35:07.12345Z',1);
+
+INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUES('Trilha HTML', 'Trilha principal do Curso', 1,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 1, 1);
+
+INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUES('Forum', 'Tire Suas Dúvidas', 2,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 2, 1);
+
+INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUES('Lives', 'Lives Exclusivas Para a Turma', 1,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 0, 1);
