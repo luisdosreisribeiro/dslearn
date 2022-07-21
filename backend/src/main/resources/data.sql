@@ -24,3 +24,11 @@ INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUE
 INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUES('Forum', 'Tire Suas Dúvidas', 2,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 2, 1);
 
 INSERT INTO tb_resource(title,description,position,img_Uri,type, offer_id) VALUES('Lives', 'Lives Exclusivas Para a Turma', 1,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 0, 1);
+
+INSERT INTO tb_section(title,description,position,img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Neste Capítulo Vamos Começar', 1,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 1, null);
+
+
+INSERT INTO tb_section(title,description,position,img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Neste Capítulo Vamos Continuar', 2,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 1, 1);
+
+
+INSERT INTO tb_section(title,description,position,img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Neste Capítulo Vamos Finalizar', 3,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 1, 2);
