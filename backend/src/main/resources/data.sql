@@ -32,3 +32,7 @@ INSERT INTO tb_section(title,description,position,img_Uri, resource_id, prerequi
 
 
 INSERT INTO tb_section(title,description,position,img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Neste Capítulo Vamos Finalizar', 3,'https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202009/e-learning_digital_education-1200x1080.jpg?XjMNHsb4gLoU_cC7110HB7jVghJQROOj', 1, 2);
+
+INSERT INTO tb_enrollment(user_id, offer_id,enroll_Moment, refund_Moment, available, only_Update) VALUES(1 ,1 ,TIMESTAMP WITH TIME ZONE '2022-07-22T08:10:07.12345Z',null, true, false);
+INSERT INTO tb_enrollment(user_id, offer_id,enroll_Moment, refund_Moment, available, only_Update) VALUES(2 ,1 ,TIMESTAMP WITH TIME ZONE '2022-07-22T08:10:07.12345Z',null, true, false);
+
