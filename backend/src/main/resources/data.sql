@@ -55,4 +55,6 @@ INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES('Primeiro
 INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES('Segundo feedback da tarefa: favor revisar',TIMESTAMP WITH TIME ZONE '2022-07-22T17:38:07.12345Z', true, 'ofers/1/resource/1/sections/1',1);
 INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES('Terceiro feedback da tarefa: favor revisar',TIMESTAMP WITH TIME ZONE '2022-07-22T17:38:07.12345Z', true, 'ofers/1/resource/1/sections/1',1);
 
+INSERT INTO tb_deliver(uri, moment,status, feedback, correct_Count, lesson_id, user_id, offer_id)VALUES('https://github.com/devsuperior/bds-dslearn', TIMESTAMP WITH TIME ZONE '2022-07-22T08:10:07.12345Z',0,null, null,4,1,1);
+
 
